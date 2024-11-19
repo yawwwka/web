@@ -8,4 +8,87 @@
 
 .test {
     color: red !important;
+    font-family: 'Inter';
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.header1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.header2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.header3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.header4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.sendbutton {
+    border: none;
+    background: linear-gradient(90deg, rgba(73, 117, 230, 1) 0%, rgba(141, 84, 234, 1) 100%);
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase; 
+}
+
+form {
+    background: url(../img/form.png) no-repeat left;
+    width: 300px;
+}
+
+menu {
+    padding: 0;
+    margin: 0;
+}
+
+menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+menu ul {
+    display: flex;
+    list-style: none;
+}
+
+menu li {
+    background: linear-gradient(180deg, rgba(224,235,235,1) 0%, rgba(62,130,131,1) 100%);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-right: 3px solid rgb(0, 0, 0);
+    padding: 10px 25px;
+    padding-left: 40px;
+    margin-left: -15px;
+}
+
+menu li:first-child {
+    z-index: 1;
 }
