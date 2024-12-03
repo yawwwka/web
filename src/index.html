@@ -1,46 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/style.css">
-	<title>Батурин ЛБ-1</title>
+	<link rel="stylesheet" href="assets/styles/style.css">
+    <title>Батурин ЛБ-4</title>
 </head>
 <body>
-	<header>
-		<img src = "assets/img/logo.png" alt = "Логотип", width = 100px>
-		<menu class="breadcrumbs">
-            <ul>
-                <li><a href="index.html">Главная страница</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </menu>
+	<header class="header">
+		<div class="wrapper">
+			<div class="header_content">
+				<div class="header_name">
+					<a href="/src" class="header_name_link">IT WEBSITE</a>
+				</div>
+
+				<nav class="header_navigation">
+					<ul class="header_navigation_list">
+						<li class="header_navigation_item">
+							<a href="" class="header_navigation_link">Services</a>
+						</li>
+						<li class="header_navigation_item">
+							<a href="" class="header_navigation_link">Media</a>
+						</li>
+						<li class="header_navigation_item">
+							<a href="" class="header_navigation_link">Cases</a>
+						</li>
+						<li class="header_navigation_item">
+							<a href="" class="header_navigation_link">FAQ</a>
+						</li>
+						<li class="header_navigation_item">
+							<a href="" class="header_navigation_link">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="header_contacts">
+					<div class="header_contacts_item">
+						<img src="assets/svg/headerPhone.svg" alt="Phone" class="icon_tiny">
+						<span class="header_contacts_text">+7 (111) 111 11 11</span> 
+        				<span class="header_contacts_last_number">+7 (111) 111 11 11</span> 
+      				</div> 
+      				<div class="header_contacts_item"> 
+        				<img src="assets/svg/headerMail.svg" alt="Mail" class="icon_tiny"> 
+        				<span class="header_contacts_text">itcompany@mail.com</span> 
+      				</div> 
+				</div>
+			</div>
+		</div>
 	</header>
-	<main>
-		<h1 class = "header1">Самый большой заголовок</h1>
-		<p class = "paragraph">Данный параграф содержит произвольный текст.<p>
-		
-		<h3 class = "header3">Теперь маленький заголовок</h3>
-		<h4 class = "header4">А теперь еще меньше</h4>
-		<p class = "paragraph">Всем привет, меня зовут Вова, мне 20 лет.</p>
-		
-		<h3 class = "header3">Очередной заголовок</h3>
-		<p class = "paragraph">Еще один заголовок</p>
-		
-		<hr>
-		
-		<footer>
-			<h3 class = "header3">Заголовок подвала</h3>
-			<p class = "paragraph">Это текст под заголовком подвала</p>
-			
-			<hr>
-			
-			<li>Батурин Владимир Павлович</li>
-			<li>+7 800 777-99-99</li>
-			<li>podderzhka@mail.ru</li>
-			
-			<p class = "paragraph">Все права защищены</p>
-		</footer>
+	<main class="main">
+		<div class="introduction">
+			<div class="wrapper">
+				<section class="introduction_greeting">
+					<h1>Development of <span class = "blue_text">mobile applications</span> and <span class = "blue_text">web services</span> of any complexity</h1>
+                	<p>We create mobile applications for iOS, Android that transfer your business to mobile apllications of your customers' devices</p>
+				</section>
+				<section class="introduction_form">
+					<h3>Leave your contacts and we will call you back within 30 minutes</h3>
+					<form>
+						<div>
+							<label for = "phone" class="introduction_form_sign">Phone number</label>
+							<input type = "phone" id = "phone" name = "phone" class="introduction_form_item introduction_form_item_flag" placeholder = "+7 (111) 111 11 11" required>
+						</div>
+						<div>
+							<label for = "name" class="introduction_form_sign">Full name</label>
+							<input type = "name" id = "name" name = "name" class="introduction_form_item" placeholder = "Иван Иванов" required>
+						</div>
+						<button type="submit">Get consultation</button>
+					</form>
+				</section>
+			</div>
+		</div>
 	</main>
+	<footer class="footer">
+		<div class="wrapper_footer">
+			<div class="footer_content">
+				<h1>IT WEBSITE</h1>
+				<section class="footer_contacts">
+					<div class="footer_contacts_item">
+						<div class="footer_contacts_sign">
+							<img src="assets/svg/footerPhone.svg" alt="phone" class="icon_tiny">
+							<h5>Contact nums</h5>
+						</div>
+						<h4>+7 (778) 395 90 26</h4>
+					</div>
+					<div class="footer_contacts_item">
+						<div class="footer_contacts_sign">
+							<img src="assets/svg/footerMail.svg" alt="mail" class="icon_tiny">
+							<h5>Post</h5>
+						</div>
+						<h4>mail@mail.com</h4>
+					</div>
+					<div class="footer_contacts_item">
+						<div class="footer_contacts_sign">
+							<img src="assets/svg/footerPin.svg" alt="pin" class="icon_tiny">
+							<h5>Address</h5>
+						</div>
+						<h4>City city, steet st. 90</h4>
+					</div>
+					<div class="footer_contacts_item">
+						<div class="footer_contacts_sign">
+							<img src="assets/svg/footerFile.svg" alt="file" class="icon_tiny">
+							<h5>Leave a request</h5>
+						</div>
+						<h4>Leave a request</h4>
+					</div>
+				</section>
+				<div class = "footer_country">
+					<img src="assets/svg/footerKazakhstan.svg" alt="kz" class="footer_country">
+					<p>We work throught world</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
