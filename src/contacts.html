@@ -1,60 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Контакты</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="/src/assets/styles/style.css">
 </head>
+
 <body>
     <header>
-        <img src="src/assets/tgu.png" alt="Логотип" id="logo">
-        <nav>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </nav>
+        <ul class="breadcrumbs">
+            <img src="assets/icons/tgu.png" alt="Логотип" class="logo">
+            <li class="breadcrumbs-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumbs-item"><a href="contacts.html">Контакты</a></li>
+        </ul>
     </header>
 
-    <h2>Contact Us</h2>
-    <p>Уже не знаю что написать в параграфе</p>
-    <img src="src/assets/cat.jpg" alt="Кот">
+    <main>
+        <h2 class="contact-title">Contact Us</h2>
+        <p class="text">Уже не знаю что написать в параграфе</p>
+        <img src="assets/img/cat.jpg" alt="Кот" height="200" width="300">
 
-    <h4>Address</h4>
-    <p>г. Тюмень, ул. Перекопская 15а</p>
+        <h4 class="sub-title">Address</h4>
+        <p class="text">г. Тюмень, ул. Перекопская 15а</p>
 
-    <h4>Phone</h4>
-    <li>+7 (123) 456-78-90</li>
-    <li>+7 (987) 654-32-10</li>
+        <h4 class="sub-title">Phone</h4>
+        <li>+7 (123) 456-78-90</li>
+        <li>+7 (987) 654-32-10</li>
 
-    <h4>Online Service</h4>
-    <li><a href="vmeste.utmn.ru">vmeste.utmn.ru</a></li>
-    <li><a href="utmn.modeus.org">utmn.modeus.org</a></li>
-    <li>tgu@study.utmn.ru</li>
+        <h4 class="sub-title">Online Service</h4>
+        <li><a href="https://vmeste.utmn.ru">vmeste.utmn.ru</a></li>
+        <li><a href="https://utmn.modeus.org">utmn.modeus.org</a></li>
+        <li>tgu@study.utmn.ru</li>
 
-    <h4>Send us message</h4>
-    <form action="#" method="post">
-        <label for="full-name">Full Name:</label>
-        <input type="text" id="full-name" name="full-name" required><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
-        <button type="submit">Submit</button>
-    </form>
-
+        <h4 class="sub-title">Send us message</h4>
+        <form>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" class="input-field" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="input-field" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" class="input-field" required></textarea>
+            <br>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </main>
     <footer>
-        <h3>Заголовок в подвале</h3>
-        <p>Параграф в подвале сайта</p>
-        
+        <h3 class="footer-title">Заголовок в подвале</h3>
+        <p class="text">Параграф в подвале сайта</p>
+
         <hr>
-        
+
         <li>Полищук Дмитрий Сергеевич</li>
         <li>+7 (123) 456-78-90</li>
         <li>example@mail.ru</li>
 
-        <p>Все права защищены</p>
+        <p class="text">Все права защищены</p>
     </footer>
 </body>
+
 </html>

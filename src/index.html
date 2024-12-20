@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="/src/assets/styles/style.css">
 </head>
+
 <body>
     <header>
-        <img src="src/assets/tgu.png" alt="Логотип" id="logo">
-        <nav>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </nav>
+        <ul class="breadcrumbs">
+            <img src="assets/icons/tgu.png" alt="Логотип" class="logo">
+            <li class="breadcrumbs-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumbs-item"><a href="contacts.html">Контакты</a></li>
+        </ul>
     </header>
 
     <main>
-        <h1>Заголовок первого уровня</h1>
-        <p>Параграф с текстом</p>
+        <h1 class="main-title">Заголовок первого уровня</h1>
+        <p class="text">Параграф с текстом</p>
 
-        <h3>Заголовок третьего уровня</h3>
+        <h3 class="section-title">Заголовок третьего уровня</h3>
 
-        <h4>Заголовок пятого уровня</h4>
-        <p>Создал параграф с произвольным текстом</p>
+        <h4 class="sub-title">Заголовок пятого уровня</h4>
+        <p class="text">Создал параграф с произвольным текстом</p>
 
-        <h3>Снова третий уровень</h3>
-        <p>Снова создал параграф с произвольным текстом :/</p>
+        <h3 class="section-title">Снова третий уровень</h3>
+        <p class="text">Снова создал параграф с произвольным текстом :/</p>
+
+        <hr>
+    </main>
+
+    <footer>
+        <h3 class="footer-title">Заголовок в подвале</h3>
+        <p class="text">Параграф в подвале сайта</p>
 
         <hr>
 
-        <footer>
-            <h3>Заголовок в подвале</h3>
-            <p>Параграф в подвале сайта</p>
-            
-            <hr>
-            
+        <ul>
             <li>Полищук Дмитрий Сергеевич</li>
             <li>+7 (123) 456-78-90</li>
             <li>example@mail.ru</li>
+        </ul>
 
-            <p>Все права защищены</p>
-        </footer>
-    </main>
+        <p class="text">Все права защищены</p>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
