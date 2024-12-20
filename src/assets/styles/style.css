@@ -32,7 +32,10 @@
 }
 
 .wrapper_footer{
+<<<<<<< HEAD
     max-width: 1224px;
+=======
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
     margin: 0 auto;
 }
 
@@ -42,10 +45,48 @@
     height: 24px;
 }
 
+<<<<<<< HEAD
+=======
+.icon_tiny_2{
+    margin-right: 4px;
+    width: 28px;
+    height: 28px;
+}
+
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
 .blue_text{
     color: #306FF5;
 }
 
+<<<<<<< HEAD
+=======
+.hidden_menu_checkbox{
+    display: none;
+}
+
+.hidden_menu{
+    background-image: url(../svg/hidden_menu.svg);
+    background-size: cover;
+}
+
+.hidden_menu_checkbox:checked + .hidden_menu{
+    width: 36px;
+    height: 36px;
+    background-image: url(../svg/hidden_menu_exit.svg);
+    background-size: cover;
+}
+
+.hidden_content{
+    background-color: #FFFFFF;
+    width: 100vw;
+    padding: 0;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
 /* Common styles end */
 
 /* Header styles start */
@@ -60,6 +101,10 @@
     margin-top: 24px;
     padding: 16px 24px;
     box-shadow: 0px 2px 24px 0px #00000014;
+<<<<<<< HEAD
+=======
+    position: relative;
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
 }
 
 .header_name_link{
@@ -124,6 +169,7 @@
     margin-left: 16px;
 }
 
+<<<<<<< HEAD
 /* Header styles end */
 
 /* Main styles start */
@@ -146,20 +192,69 @@
     font-weight: 700;
     color: #101828;
     line-height: 52px;
+=======
+.hidden_content h1{
+    color: #2D66EE;
+    font-family: "Inter";
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+
+.header_navigation_list_hidden, .header_navigation_link_hidden{
+    display: flex;
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #101828;
+    flex-direction: column;
+}
+
+.header_navigation_hidden{
+    margin-bottom: 52px;
+}
+
+.header_contacts_item_hidden{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/* Header styles end */
+
+/* Introduction styles start */
+
+.introduction{
+    background-color: #F2F4F7;
+}
+
+.introduction_greeting h1{
+    font-family: "Inter";
+    font-weight: 700;
+    color: #101828;
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
     margin-bottom: 24px;
 }
 
 .introduction_greeting p{
+<<<<<<< HEAD
     width: 600px;
+=======
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
     font-size: 15px;
     font-weight: 500;
     color: #101828;
     line-height: 20px;
+<<<<<<< HEAD
     margin-bottom: 64px;
 }
 
 .introduction_form{
     width: 676px;
+=======
+}
+
+.introduction_form{
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
     border-radius: 12px;
     box-shadow: 0px 0px 24px 0px #00000029;
     background-color: #FFFFFF;
@@ -169,9 +264,12 @@
 .introduction_form h3{
     font-family: "Inter";
     font-weight: 700;
+<<<<<<< HEAD
     font-size: 20px;
     line-height: 24px;
     width: 472px;
+=======
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
     margin-bottom: 36px;
 }
 
@@ -190,7 +288,11 @@
 }
 
 .introduction_form_item_flag{
+<<<<<<< HEAD
     background: transparent url(/src/assets/img/IconFlag.png) no-repeat left;
+=======
+    background: transparent url(../img/flagKazakhstan.png) no-repeat left;
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
     background-size: 20px;
 }
 
@@ -234,16 +336,94 @@
     background-color: #1250DE;
 }
 
+<<<<<<< HEAD
 /* Main styles end */
+=======
+/* Introduction styles end */
+
+/* Competence styles start */
+
+.competence{
+    justify-content: space-between;
+}
+
+.competence .wrapper{
+    display: flex;
+}
+
+.competence_greeting h1{
+    font-family: "Inter";
+    font-weight: 700;
+    line-height: 52px;
+    color: #101828;
+    margin-bottom: 32px;
+}
+
+.competence_greeting p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #101828;
+    margin-bottom: 34px;
+}
+
+.competence_technologies h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101828;
+    margin-bottom: 16px;
+}
+
+.competence_technologies p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #344054;
+    margin-bottom: 32px;
+}
+
+.competence_technologies span{
+    color: #2D66EE;
+}
+
+.competence_navigation_item{
+    gap: 12px;
+    list-style-type: none;
+    height: 48px;
+    display: flex;
+}
+
+.competence_navigation_link{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D2939;
+    text-decoration: none;
+}
+
+.competence_navigation_link:hover, .competence_navigation_link:focus, .competence_navigation_link:active{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101828;
+}
+
+/* Competence styles end */
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
 
 /* Footer styles start */
 
 .footer_content{
     background-color: #101828;
     border-radius: 12px;
+<<<<<<< HEAD
     padding: 24px;
     box-shadow: 0px 2px 24px 0px #00000014;
     margin: 48px 0px;
+=======
+    box-shadow: 0px 2px 24px 0px #00000014;
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
 }
 
 .footer_contacts{
@@ -251,11 +431,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
     margin-bottom: 40px;
 }
 
 .footer_contacts_item{
     width: 294px;
+=======
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
 }
 
 .footer_contacts_sign{
@@ -277,7 +460,10 @@
 
 .footer h4{
     font-weight: 600;
+<<<<<<< HEAD
     font-size: 17px;
+=======
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
     line-height: 22px;
     color: #FFFFFF;
 }
@@ -302,4 +488,405 @@
     gap: 12px;
 }
 
+<<<<<<< HEAD
 /* Footer styles start */
+=======
+/* Footer styles start */
+
+/* Adaptive - Computer */
+
+@media(min-width: 1440px){
+    .hidden_menu{
+        display: none;
+    }
+
+    .introduction{
+        padding-top: 160px;
+        min-height: 900px;
+        background-image: url('../svg/introduction_background.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+
+    .introduction_greeting h1{
+        width: 600px;
+        font-size: 36px;
+        line-height: 52px;
+    }
+
+    .introduction_greeting p{
+        width: 600px;
+        margin-bottom: 64px;
+    }
+
+    .introduction_form{
+        width: 676px;
+    }
+
+    .introduction_form h3{
+        font-size: 20px;
+        line-height: 24px;
+        width: 472px;
+    }
+
+    .competence{
+        padding-top: 80px;
+    }
+
+    .competence_greeting{
+        width: 600px;
+    }
+
+    .competence_technologies{
+        width: 496px;
+    }
+
+    .competence .wrapper{
+        gap: 128px;
+    }
+
+    .footer_content{
+        margin: 48px 0px;
+        padding: 24px;
+    }
+
+    .competence_greeting h1{
+        font-size: 36px;
+    }
+
+    .footer h4{
+        font-size: 17px;
+    }
+
+    .footer_contacts_item{
+        width: 294px;
+    }
+
+    .footer_contacts{
+        margin-bottom: 40px;
+    }
+
+    .wrapper_footer{
+        max-width: 1224px;
+    }
+}
+
+/* Adaptive - Tablet */
+
+@media(max-width: 1440px) and (min-width: 767px){
+    .wrapper{
+        width: 768px;
+        padding-left: 32px;
+    }
+
+    .header_content{
+        padding: 25px 32px;
+        margin-top: 16px;
+        display: flex;
+    }
+    
+    .hidden_menu{
+        width: 59px;
+        height: 40px;
+    }
+
+    .header_name{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header_navigation, .header_contacts_item{
+        display: none;
+    }
+
+    .hidden_menu_checkbox:checked ~ .header_name, .header_contacts_item:last-child{
+        display: none;
+    }
+    
+    .header_contacts_item:last-child{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hidden_menu_checkbox:checked ~ .hidden_content{
+        display: flex;
+    }
+
+    .introduction{
+        padding-top: 138px;
+        min-height: 778px;
+        background-image: url('../svg/introduction_background2.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+
+    .introduction_greeting h1{
+        width: 383px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .footer h4{
+        font-size: 14px;
+    }
+
+    .introduction_greeting p{
+        width: 383px;
+        margin-bottom: 32px;
+    }
+
+    .introduction_form{
+        width: 382px;
+    }
+
+    .introduction_form h3{
+        font-size: 16px;
+        line-height: 24px;
+        width: 295px;
+    }
+
+    .introduction_form form{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .introduction_form div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .competence{
+        padding-top: 32px;
+    }
+
+    .competence_greeting{
+        width: 321px;
+    }
+
+    .competence_technologies{
+        width: 320px;
+    }
+
+    .competence .wrapper{
+        display: flex;
+        gap: 83px;
+    }
+
+    .competence nav{
+        padding-top: 200px;
+    }
+
+    .footer_content{
+        padding: 46px 21px 37px 56px;
+    }
+
+    .competence_greeting h1{
+        font-size: 36px;
+    }
+
+    .footer_contacts_item{
+        width: 176px;
+    }
+
+    .footer_contacts_item:nth-child(3){
+        width: 156px;
+    }
+
+    .footer_contacts{
+        margin-bottom: 32px;
+    }
+
+    .wrapper_footer{
+        max-width: 767px;
+    }
+
+    .hidden_menu_checkbox:checked + .hidden_menu{
+        position: absolute;
+        right: 148px;
+        top: 37px;
+    }
+
+    .hidden_content h1{
+        margin-top: 102px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .header_navigation_list_hidden{
+        display: flex;
+        font-size: 36px;
+        line-height: 52px;
+        gap: 32px;
+    }
+
+    .header_contacts_hidden{
+        flex-direction: row;
+        display: flex;
+        gap: 32px; 
+        justify-content: center;
+        margin-bottom: 137px;
+        color: #2D66EE;
+    } 
+}
+
+/* Adaptive - Phone */
+
+@media(max-width: 767px){
+    .wrapper{
+        width: 425px;
+        padding-left: 24px;
+    }
+
+    .header_content{
+        padding: 35px 17px;
+        margin-top: 20px;
+    }
+
+    .hidden_menu{
+        width: 40px;
+        height: 20px;
+    }
+    
+    .header_name{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header_navigation, .header_contacts { 
+        display: none; 
+    }
+
+    .hidden_menu_checkbox:checked ~ .header_name{
+        display: none;
+    }
+
+    .hidden_menu_checkbox:checked ~ .hidden_content{
+        display: flex;
+    }
+
+    .introduction{
+        padding-top: 138px;
+        min-height: 1282px;
+        background-image: url('../svg/introduction_background3.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: auto 930px;
+    }
+
+    .introduction_greeting h1{
+        width: 383px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .introduction_greeting p{
+        width: 383px;
+        margin-bottom: 536px;
+    }
+
+    .introduction_form{
+        width: 393px;
+        margin-bottom: 32px;
+    }
+
+    .introduction_form h3{
+        font-size: 16px;
+        line-height: 24px;
+        width: 295px;
+    }
+
+    .introduction_form form{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .introduction_form div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .competence{
+        padding-top: 32px;
+    }
+
+    .competence_greeting{
+        width: 321px;
+    }
+
+    .competence_technologies{
+        width: 320px;
+    }
+
+    .competence .wrapper{
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }
+
+    .footer_content{
+        padding: 36px 16px 38px 32px;
+    }
+
+    .footer h4{
+        font-size: 14px;
+    }
+
+    .competence_greeting h1{
+        font-size: 32px;
+    }
+
+    .footer_contacts_item {
+        flex: 1 1 50%;
+        box-sizing: border-box;
+        margin-bottom: 32px;
+    }
+
+    .footer_contacts{
+        margin-bottom: 22px;
+    }
+
+    .wrapper_footer{
+        max-width: 427px;
+    }
+
+    .hidden_menu_checkbox:checked + .hidden_menu{
+        position: absolute;
+        right: 28px;
+        top: 13px;
+    }
+
+    .hidden_content h1{
+        margin-top: 43px;
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .header_navigation_list_hidden{
+        display: flex;
+        font-size: 24px;
+        line-height: 35px;
+        gap: 21px;
+    }
+
+    .header_contacts_hidden{
+        flex-direction: column;
+        display: flex;
+        gap: 16px;
+        margin-bottom: 59px;
+        color: #2D66EE;
+        align-items: center;
+    } 
+}
+
+/* http://172.16.0.2:8080/src/
+>>>>>>> eb03a9a8fceb123e99017899c163f1d951d5e183
